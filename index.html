@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+        background: #e1b4a6;
+    }
+    </style>
+
+    <title>Nathan</title>
+
+    <link rel="stylesheet" href="css/extends.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">  <!-- O elemento externo <nav> define a seção de navegação. -->
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <img src="assets/logo.jpg" alt="Nathan Kaue">
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#footer">Contatos</a></li>              
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer">
+                <ul class="mobile__links">
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#footer">Contatos</a></li>              
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- header -->
+<header id="header" class="max-width"> <!-- O elemento <header> em HTML é usado para criar a seção de cabeçalho de uma página da web -->
+<div class="header__left">
+    <h1>Olá! Sou Nathan Kaue</h1>
+    <p>Me formei no ensino médio em 2019 e agora estou cursando Analise e Desenvolvimento de Sistemas </p>
+    <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+</div>
+<div class="header__right">
+    <div class="header__image">
+        <img src="assets/foto 1.jpg" alt="Nathan Kauê" class="nathan">
+        <img src="assets/abstract.svg" alt="background" class="background">
+    </div>
+</div>
+</header>
+
+<!-- Sobre -->
+<section id="about" class="about max-width"> <!-- Na parte esquerda, há um subtítulo (<h2>) que diz “Quem sou eu?”, uma breve mensagem (<p>) convidando a se conectar nas redes sociais e uma lista de ícones de redes sociais (Instagram e Twitter) com links correspondentes. -->
+    <div class="about__left">
+        <h2 class="secondary-title">Quem sou eu?</h2>
+        <p>
+            Que tal se conectar comigo nas redes sociais
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/nathan_kaue"><img src="assets/instagram.svg" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Nathan_Kauee"><img src="assets/twitter.svg" alt="Twitter"></a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+            Estudante de Analise e Desenvolvimento de Sistemas em busca de aprender mais sobre a area de TI
+        </h3>
+        <p>Olá, eu sou o Nathan Kaue um estudante de ADS que sonha um dia trabalhar nessa area.</p>
+        <p>Não tenho muito o que falar sobre mim apenas que gosto e sempre estou disposto a aprender algo que prenda minha atenção.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">  <!-- O elemento <footer> em HTML é usado para criar a seção de rodapé de uma página da web -->
+    <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos Conversar?</h2>
+        <p class="mb-m">Fale mais sobre oque achou do curso de ADS</p>
+        <div class="footer__contact mb-m">
+            <span class="mb-m">nathankauee25@gmail.com</span>
+            <span>41 985228059</span>
+        </div>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/nathan_kaue"><img src="assets/instagram.svg" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Nathan_Kauee"><img src="assets/twitter.svg" alt="Twitter"></a>
+            </li>
+        </ul>
+    </div>
+    <section id="contact-form">
+        <form>
+          <input type="text" placeholder="Seu nome" required>
+          <input type="email" placeholder="Seu email" required>
+          <textarea placeholder="Deixe seu comentário aqui..." required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <p class="footer__copyright">
+            ©  2024 Nathan Kaue. Todos os direitos reservados.
+        </p>
+</footer>
+
+<!-- script -->
+    <script src="scripts/index.js"></script>  <!-- Um script em HTML é um conjunto de instruções ou comandos escritos em uma linguagem de programação específica. -->
+</body>
+</html>
